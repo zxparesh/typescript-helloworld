@@ -1,0 +1,22 @@
+{
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "ESNext",
+    "outDir": "./dist/",
+    "jsx": "react",
+    "allowJs": true,
+    "strict": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["es2016", "dom", "esnext.asynciterable"],
+    "baseUrl": "./",
+    "paths": {
+      "@app/*": ["src/App/*"]
+    }
+  }
+}
